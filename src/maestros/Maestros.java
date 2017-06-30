@@ -17,6 +17,8 @@ public class Maestros
      */
     public static void main(String[] args)
     {
+        Articulo unArticulo = new Articulo(1,"Coca Cola");
+
 
     }
 

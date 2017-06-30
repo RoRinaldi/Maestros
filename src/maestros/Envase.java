@@ -16,6 +16,17 @@ public class Envase
     private String unidad_med;
     private Integer cantidad;
 
+    public Envase(Insumo insumo, Integer codigo, String nombre, String unidad_med, Integer cantidad)
+    {
+        this.insumo = insumo;
+        this.codigo = codigo;
+        this.nombre = nombre;
+        this.unidad_med = unidad_med;
+        this.cantidad = cantidad;
+    }
+
+    
+
     public Insumo getInsumo()
     {
         return insumo;
@@ -41,5 +52,5 @@ public class Envase
         return cantidad;
     }
 
-    
+
 }
